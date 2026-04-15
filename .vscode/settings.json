@@ -1,0 +1,10 @@
+﻿{
+  "C_Cpp.default.cStandard": "c17",
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "[c]": {
+    "editor.tabSize": 2
+  },
+  "C_Cpp.formatting": "clangFormat",
+  "cmake.generator": "Unix Makefiles"
+}
