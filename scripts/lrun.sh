@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 exeName=$(grep "set(MY_EXECUTABLE_NAME" CMakeLists.txt | grep -o '"[^"]*"' | head -1 | tr -d '"')
 
 if [ -n "$exeName" ]; then

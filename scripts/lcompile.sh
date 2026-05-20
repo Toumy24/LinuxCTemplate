@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 currentDirectory=$(pwd)
 cmakeListsPath="${currentDirectory}/CMakeLists.txt"
 
