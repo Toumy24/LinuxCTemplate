@@ -16,4 +16,4 @@ if [ ! -d "$buildFolderPath" ]; then
   echo "build folder created."
 fi
 
-cmake -G "Unix Makefiles" -D CMAKE_C_COMPILER=/usr/bin/gcc -S . -B ./build/ && make -C ./build/ && ./build/bin/linuxcdemo
+cmake -G "Unix Makefiles" -D CMAKE_C_COMPILER=/usr/bin/gcc -S . -B ./build/ && make -C ./build/ && ./build/bin/main
